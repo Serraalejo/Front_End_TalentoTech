@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Zone Ecommerce</title>
+     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+     
+
+        <div class="logo">
+            <img src="img/logo.JPG" alt="Gamer Zone" width=100px>
+        </div>
+        
+    <nav> 
+<nav> 
+    <ul class="container">
+        <li><i class="fa-regular fa-house"></i><a href="#Inicio">Inicio</a></li>
+        <li><i class="fa-solid fa-people-group"></i><a href="#Nosotros">Nosotros</a></li>
+        <li><i class="fa-brands fa-megaport"></i><a href="#Productos">Productos</a></li>
+        <li><i class="fa-solid fa-hand-fist"></i><a href="#Servicios">Servicios</a></li>
+        <li><i class="fa-solid fa-headset"></i><a href="#Contacto">Contacto</a></li>
+    </ul>
+</nav>
+    </nav>
+
+    </header>
+
+    <main>
+        
+        <section id="Inicio">
+
+            
+            <video controls>
+                <source src="video/videoplayback.mp4" type="video/mp4">
+            </video>
+
+
+        </section>
+
+        <!-- NUEVA SECCIÓN: RESEÑAS -->
+    <section id="Reseñas">
+        <h2 class="section-title">⭐ RESEÑAS DE CLIENTES ⭐</h2>
+        <div class="reviews-grid">
+            
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Excelente tienda, los productos llegaron antes de lo esperado. Muy buena atención al cliente."</p>
+                <div class="reviewer">
+                    <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Cliente" class="avatar">
+                    <div>
+                        <h4>Carlos Gómez</h4>
+                        <span>Cliente frecuente</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Los mejores precios en componentes gaming. Volveré a comprar sin duda."</p>
+                <div class="reviewer">
+                    <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Cliente" class="avatar">
+                    <div>
+                        <h4>María Rodríguez</h4>
+                        <span>Gamer profesional</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★☆</div>
+                <p class="review-text">"Buena variedad de productos, el envío fue rápido. Recomendado."</p>
+                <div class="reviewer">
+                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Cliente" class="avatar">
+                    <div>
+                        <h4>Javier Martínez</h4>
+                        <span>Streamer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Atención increíble, me asesoraron para armar mi primera PC gamer."</p>
+                <div class="reviewer">
+                    <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Cliente" class="avatar">
+                    <div>
+                        <h4>Laura Fernández</h4>
+                        <span>Nueva cliente</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   <section id="Contacto" class="contact-section">
+            <h2 class="section-title">📞 CONTACTO</h2>
+            <div class="contact-container">
+                
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Av. Principal 123, Ciudad</p>
+                    <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fa-solid fa-envelope"></i> contacto@gamerzone.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> +123 456 7890</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+                
+                
+                <form action="https://formspree.io/f/mykoywbb" method="post" class="contact-form">
+                    <h3>Envíanos un mensaje</h3>
+                    
+                    <div class="form-group">
+                        <label for="nombre">
+                            <i class="fa-solid fa-user"></i> Nombre completo:
+                        </label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="correo">
+                            <i class="fa-solid fa-envelope"></i> Correo electrónico:
+                        </label>
+                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono">
+                            <i class="fa-solid fa-phone"></i> Teléfono (opcional):
+                        </label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+123 456 7890">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">
+                            <i class="fa-solid fa-comment"></i> Mensaje:
+                        </label>
+                        <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i> Enviar mensaje
+                    </button>
+                    
+                    <p class="form-footer">* Te responderemos en menos de 24 horas</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Gamer Zone - Todos los derechos reservados</p>
+            <p>Síguenos en nuestras redes sociales</p>
+        </div>
+    </footer>
+
+<script src="https://kit.fontawesome.com/91f589669c.js" crossorigin="anonymous"></script>
+</body>
+</html>
