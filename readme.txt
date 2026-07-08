@@ -62,5 +62,3 @@ Borde decorativo inferior en header
 9. Formulario 
 Integración con Formspree.io
 Endpoint: https://formspree.io/f/mykoywbb
-
-
