@@ -1,3 +1,5 @@
+
+/*
 // Pedimos los datos al usuario
 let nombre = prompt("Ingresá tu nombre:");
 let edadTexto = prompt("Ingresá tu edad:");
@@ -27,6 +29,7 @@ if (isNaN(edad)) {
 
 }
 
+*/
 
 // Creamos un objeto
 
@@ -94,6 +97,8 @@ function validarFormulario() {
 // Llamamos a la función
 validarFormulario();
 
+/*
+
 const productos = [
     "Teclado Redragon",
     "Mouse Logitech G502",
@@ -109,7 +114,7 @@ for (let i = 0; i < productos.length; i++) {
 
 console.log("Lista de productos mostrada correctamente.");
 
-
+*/
 /*
 
 function generarProductos() {
