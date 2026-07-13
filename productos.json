@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Teclado Redragon Kumara K552",
+      "price": 79999,
+      "thumbnail": "img/Kumara.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Mouse Logitech G502 Hero",
+      "price": 69999,
+      "thumbnail": "img/G502Hero.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Auriculares HyperX Cloud II",
+      "price": 119999,
+      "thumbnail": "img/Cloud2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Monitor Samsung Odyssey G5 27\"",
+      "price": 359999,
+      "thumbnail": "img/Odyssey.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Silla Gamer Cougar Armor",
+      "price": 459999,
+      "thumbnail": "img/Armor.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Notebook ASUS TUF Gaming F15",
+      "price": 1499999,
+      "thumbnail": "img/F15.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mouse Pad Razer Gigantus V2",
+      "price": 24999,
+      "thumbnail": "img/Gigantus.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Memoria RAM Corsair Vengeance RGB 16GB",
+      "price": 99999,
+      "thumbnail": "img/Vengeance.jpg"
+    },
+    {
+      "id": 9,
+      "title": "SSD Kingston NV2 1TB",
+      "price": 89999,
+      "thumbnail": "img/KingstonNV2.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Placa de Video ASUS RTX 4060",
+      "price": 799999,
+      "thumbnail": "img/ASUSRTX4060.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Gabinete NZXT H5 Flow",
+      "price": 189999,
+      "thumbnail": "img/NZX H5.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Fuente Corsair RM750x",
+      "price": 169999,
+      "thumbnail": "img/RM750x.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Procesador Ryzen 7 7700X",
+      "price": 499999,
+      "thumbnail": "img/7700X.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Mother ASUS TUF B650",
+      "price": 299999,
+      "thumbnail": "img/TUFB650.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Cooler Cooler Master Hyper 212",
+      "price": 69999,
+      "thumbnail": "img/Hyper212.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Webcam Logitech C920",
+      "price": 99999,
+      "thumbnail": "img/LogitechC920.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Micrófono HyperX QuadCast",
+      "price": 189999,
+      "thumbnail": "img/QuadCast.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Joystick Xbox Series X",
+      "price": 119999,
+      "thumbnail": "img/SeriesX.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Nintendo Switch OLED",
+      "price": 749999,
+      "thumbnail": "img/SwitchOLED.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Monitor LG UltraGear 27\"",
+      "price": 399999,
+      "thumbnail": "img/UltraGear27.jpg"
+    }
+  ]
+}

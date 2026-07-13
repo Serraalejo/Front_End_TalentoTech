@@ -4,6 +4,13 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Gamer Zone es una tienda online especializada en hardware gamer, periféricos, notebooks y componentes para PC.">
+
+    <meta name="keywords" content="gaming, pc gamer, hardware, teclado gamer, mouse gamer, monitor, notebook, componentes, Gamer Zone">
+
+    <meta name="author" content="Alejo">
+
     <title>Gamer Zone Ecommerce</title>
     <link rel="icon" href="img/logo.JPG" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -13,6 +20,8 @@
 
 <body>
 
+    <div id="mensaje-carrito"></div>
+
     <header>
 
 
@@ -21,7 +30,7 @@
         </div>
         
     <nav> 
-<nav> 
+
     <ul class="container">
         <li><i class="fa-regular fa-house"></i><a href="#Inicio">Inicio</a></li>
         <li><i class="fa-solid fa-people-group"></i><a href="#Nosotros">Nosotros</a></li>
@@ -29,21 +38,46 @@
         <li><i class="fa-solid fa-hand-fist"></i><a href="#Servicios">Servicios</a></li>
         <li><i class="fa-solid fa-headset"></i><a href="#Contacto">Contacto</a></li>
     </ul>
-</nav>
+
     </nav>
 
     <div id="carrito">
-        🛒 Carrito: <span id="contador-carrito">0</span>
+        🛒 Carrito <span id="contador-carrito">(0)</span>
     </div>
+
+    <div id="panel-carrito" class="panel-carrito oculto">
+
+    <h2>🛒 Mi carrito</h2>
+
+    <div id="lista-carrito"></div>
+
+    <h3 id="total-carrito">
+        Total: $0
+    </h3>
+
+    <button id="vaciar-carrito">
+        Vaciar carrito
+    </button>
+
+    <button id="comprar">
+        Finalizar compra
+    </button>
+
+    <button id="cerrar-carrito">
+        Cerrar
+    </button>
+
+</div>
 
     </header>
 
     <main>
 
         <section id="Productos">
-            <h2 class="section-title">🎮 Nuestros Productos</h2>
 
-            <div id="contenedor-productos"></div>
+            <h2 class="section-title">🎮 Productos desde la API</h2>
+
+            <div id="productos-container"></div>
 
         </section>
         
@@ -184,6 +218,7 @@
 <script src="https://kit.fontawesome.com/91f589669c.js" crossorigin="anonymous"></script>
 
 <script src="script.js"></script>
+<script src="api.js"></script>
 
 </body>
 </html>

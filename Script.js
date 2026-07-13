@@ -110,6 +110,8 @@ for (let i = 0; i < productos.length; i++) {
 console.log("Lista de productos mostrada correctamente.");
 
 
+/*
+
 function generarProductos() {
 
     const productos = [
@@ -281,3 +283,5 @@ if (cantidadCarrito === null) {
 // Mostramos el valor
 
 contadorCarrito.textContent = cantidadCarrito;
+
+*/
